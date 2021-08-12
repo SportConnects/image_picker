@@ -165,7 +165,7 @@ typedef NS_ENUM(NSInteger, ImagePickerClassType) { UIImagePickerClassType, PHPic
     ];
     _imagePickerController.videoQuality = UIImagePickerControllerQualityTypeHigh;
 	if (@available(iOS 11.0, *)) {
-		_imagePickerController.videoExportPreset = AVAssetExportPresetPassthrough
+		_imagePickerController.videoExportPreset = AVAssetExportPresetPassthrough;
 	}
 
     self.result = result;
